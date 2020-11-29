@@ -12,7 +12,6 @@ module BattleshipFieldValidator
 
       it 'validates field as valid' do
         validator = GridValidator.new(valid_grid)
-        # binding.pry
         expect(validator.valid?).to eq(true)
       end
 

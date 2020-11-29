@@ -29,7 +29,7 @@ module BattleshipFieldValidator
     end
 
     def points_match?
-      @points == Constants::TWENTY
+      @points == Constants::SHIP_POINTS_SUM
     end
 
     # verify that not a single pair of ships occupy adjacent coordinates

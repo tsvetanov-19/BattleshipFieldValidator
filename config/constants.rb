@@ -23,7 +23,11 @@ module Constants
 
   BATTLESHIPS = [SINGLE_SHIP, CRUISER, DESTROYER, SUBMARINE].freeze
 
-  TWENTY = 20
-  SHIP_POINTS_SUM = SINGLE_SHIP.size * SINGLE_SHIP.count + CRUISER.size * CRUISER.count + DESTROYER.size * DESTROYER.count
+  # 20 squares
+  SHIP_POINTS_SUM =
+    SINGLE_SHIP[:size] * SINGLE_SHIP[:count] +
+    CRUISER[:size] * CRUISER[:count] +
+    DESTROYER[:size] * DESTROYER[:count] +
+    SUBMARINE[:size] * SUBMARINE[:count]
 
 end
