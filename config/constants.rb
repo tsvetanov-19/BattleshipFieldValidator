@@ -1,6 +1,8 @@
 # frozen_string_literal: true
 
 module Constants
+  MIN_X = 0
+  MIN_Y = 0
   MAX_X = 10
   MAX_Y = 10
 

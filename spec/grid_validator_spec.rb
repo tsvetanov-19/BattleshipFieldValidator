@@ -7,7 +7,7 @@ module BattleshipFieldValidator
   RSpec.describe GridValidator do
 
     context 'field validation' do
-      let(:valid_grid) { Fixtures::ValidBoard.battlefield }
+      let(:valid_grid)   { Fixtures::ValidBoard.battlefield }
       let(:invalid_grid) { Fixtures::InvalidBoard.battlefield }
 
       it 'validates field as valid' do
